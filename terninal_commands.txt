@@ -1,0 +1,35 @@
+
+C:\Users\BINIAM>cd desktop
+
+C:\Users\BINIAM\Desktop>md test
+
+C:\Users\BINIAM\Desktop>cd test
+
+C:\Users\BINIAM\Desktop\test>copy NUL index.html, styles.css, commands.txt
+The syntax of the command is incorrect.
+
+C:\Users\BINIAM\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\BINIAM\Desktop\test>copy NUL styles.css
+        1 file(s) copied.
+
+C:\Users\BINIAM\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+C:\Users\BINIAM\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\BINIAM\Desktop\test>del styles.css
+
+C:\Users\BINIAM\Desktop\test>cd ..
+
+C:\Users\BINIAM\Desktop>md destination
+
+C:\Users\BINIAM\Desktop>move test\index_2.html destination\index_2.html
+        1 file(s) moved.
+
+C:\Users\BINIAM\Desktop>rd /s destination
+destination, Are you sure (Y/N)? y
+
+C:\Users\BINIAM\Desktop>
