@@ -5,9 +5,6 @@ C:\Users\BINIAM\Desktop>md test
 
 C:\Users\BINIAM\Desktop>cd test
 
-C:\Users\BINIAM\Desktop\test>copy NUL index.html, styles.css, commands.txt
-The syntax of the command is incorrect.
-
 C:\Users\BINIAM\Desktop\test>copy NUL index.html
         1 file(s) copied.
 
